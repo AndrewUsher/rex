@@ -1,0 +1,21 @@
+{
+  "name": "rex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "rex": "index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "caporal": "^0.7.0",
+    "puppeteer": "^0.11.0",
+    "shelljs": "^0.7.8",
+    "superstatic": "^5.0.1"
+  }
+}
