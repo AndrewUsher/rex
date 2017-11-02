@@ -16,6 +16,11 @@ You can pass the routes you want prerendered using the `--routes` flag.
 rex dist --routes=/,/contact,/blog
 ```
 
+You can also specify a port number. Defaults to `3000`.
+```sh
+rex dist --port 8080
+```
+
 The output should be
 * `index.html`
 * `contact/index.html`
