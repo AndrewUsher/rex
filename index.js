@@ -13,6 +13,9 @@ const pkg = require('./package.json')
 
 const { description, version } = pkg
 
+const { DEBUG = 'false' } = process.env
+const IS_DEBUG = DEBUG === 'true'
+
 caporal
   .version(version)
   .description(description)
@@ -96,7 +99,9 @@ function serve(directory, port) {
 // so it will be easier to start testing
 
 async function go(opts, route = '') {
-  const browser = await puppeteer.launch()
+  const browser = await puppeteer.launch({
+    headless: !IS_DEBUG
+  })
   const page = await browser.newPage()
   await page.goto(`http://localhost:${_port}${route}`)
 
