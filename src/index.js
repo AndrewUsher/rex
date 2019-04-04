@@ -9,7 +9,7 @@ const shell = require('shelljs')
 const caporal = require('caporal')
 const fs = require('fs')
 const _ = require('lodash')
-const pkg = require('./package.json')
+const pkg = require('../package.json')
 
 const { description, version } = pkg
 
