@@ -1,6 +1,6 @@
 # Rex
 **Simple single page app pre renderer cli**
-
+**Forked from [here](https://github.com/Mandrewdarts/Rex)**
 ## Use
 
 Just tell rex where your app is.
