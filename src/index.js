@@ -19,16 +19,18 @@ const IS_DEBUG = DEBUG === 'true'
 caporal
   .version(version)
   .description(description)
-  .argument('[directory]', 'Directory your site lives in')
+  .argument('<directory>', 'Directory your site lives in')
   .option(
-    '--routes',
+    '--routes [routes]',
     'List of routes to prerender - Default is "/"',
-    caporal.LIST
+    caporal.LIST,
+    '/'
   )
   .option(
-    '--port',
+    '--port [port]',
     'Port used to run the build server - Default is port 3000',
-    caporal.INT
+    caporal.INT,
+    3000
   )
   .action(async function(args, options, logger) {
     serve(args.directory, options.port)
