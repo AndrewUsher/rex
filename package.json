@@ -14,7 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "caporal": "1.1.0",
-    "esm": "^3.2.22",
+    "esm": "^3.2.25",
     "lodash": "^4.17.4",
     "puppeteer": "1.14.0",
     "shelljs": "0.8.3",
