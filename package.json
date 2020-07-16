@@ -15,7 +15,7 @@
   "dependencies": {
     "caporal": "1.1.0",
     "esm": "^3.2.22",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.19",
     "puppeteer": "1.14.0",
     "shelljs": "0.8.3",
     "superstatic": "6.0.4"
