@@ -161,7 +161,7 @@ camelcase@^4.0.0:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-4.1.0.tgz#d545635be1e33c542649c69173e5de6acfae34dd"
   integrity sha1-1UVjW+HjPFQmScaRc+Xeas+uNN0=
 
-caporal@^1.1.0:
+caporal@1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/caporal/-/caporal-1.1.0.tgz#834fd2348ab6ae79171a023a975ccc6f04620533"
   integrity sha512-R5qo2QGoqBM6RvzHonGhUuEJSeqEa4lD1r+cPUEY2+YsXhpQVTS2TvScfIbi6ydFdhzFCNeNUB1v0YrRBvsbdg==
@@ -1251,9 +1251,9 @@ puppeteer@1.14.0:
     ws "^6.1.0"
 
 qs@~6.4.0:
-  version "6.4.0"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.4.0.tgz#13e26d28ad6b0ffaa91312cd3bf708ed351e7233"
-  integrity sha1-E+JtKK1rD/qpExLNO/cI7TUecjM=
+  version "6.4.1"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.4.1.tgz#2bad97710a5b661c366b378b1e3a44a592ff45e6"
+  integrity sha512-LQy1Q1fcva/UsnP/6Iaa4lVeM49WiOitu2T4hZCyA/elLKu37L99qcBJk4VCCk+rdLvnMzfKyiN3SZTqdAZGSQ==
 
 rc@^1.0.1, rc@^1.1.6:
   version "1.2.8"
